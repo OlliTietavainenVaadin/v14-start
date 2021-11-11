@@ -40,7 +40,8 @@ import com.vaadin.flow.component.avatar.Avatar;
  * The main view is a top-level placeholder for other views.
  */
 @PWA(name = "v14-start", shortName = "v14-start", enableInstallPrompt = false)
-@Theme(themeFolder = "v14-start")
+//@Theme(themeFolder = "v14-start")
+@Theme(themeFolder = "my-theme")
 @PageTitle("Main")
 public class MainLayout extends AppLayout {
 
